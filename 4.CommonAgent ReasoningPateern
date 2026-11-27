@@ -1,0 +1,22 @@
+Common Agent Reasoning Patterns
+Agent reasoning patterns are different methods used by AI agents to think, plan and perform tasks efficiently.
+1. ReAct (Reason + Act)
+- The agent thinks about what to do and performs an action.
+- It observes the result and uses that information to decide the next action.
+Example: Search for a product → Check its price → Compare prices → Give the result.
+
+2. Plan-and-Execute
+- The agent first creates a complete plan.
+- Then it executes the steps in order.
+- It can change the plan if needed.
+Example: Plan a trip → Book tickets → Reserve a hotel → Prepare an itinerary.
+
+3. Reflection / Self-Critique
+- The agent checks its own output for mistakes.
+- It corrects errors and improves the result.
+Example: Generates a report → Checks for errors → Corrects the report.
+
+4. Routing
+- The agent decides which specialist tool or agent should handle a particular request.
+- It directs the task to the appropriate destination.
+Example: Sends a billing query to the billing agent and a technical query to the support agent.
