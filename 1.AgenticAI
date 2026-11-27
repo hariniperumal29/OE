@@ -1,0 +1,50 @@
+Agentic AI is an AI system that can independently work toward a goal by planning tasks,
+making decisions, using tools,
+taking actions, and adjusting its behavior based on results,
+rather than just answering a single prompt.
+------------------------------------------------------------------------------------
+Defining Characteristics of Agentic Systems
+
+Goal-Orientation
+ Works toward achieving a specific outcome or objective, not just generating an answer.
+
+Autonomy
+ Makes decisions and determines how to proceed within the limits and rules provided.
+
+Planning and Reasoning
+ Breaks complex tasks into steps, manages dependencies, and reasons about the best course of action.
+
+Tool Use
+ Interacts with external tools, software applications, databases, APIs, and data sources to accomplish tasks.
+
+Memory and State
+ Remembers previous actions, observations, and learned information within and across tasks.
+
+Feedback and Adaptation
+ Evaluates results, identifies errors, retries when necessary, and revises plans based on feedback.
+
+Interaction
+ Communicates with users by asking clarifying questions, escalating issues to humans when needed, 
+ and collaborating with other agents.
+ ----------------------------------------------------------------------------------------------------------------
+ omparison: Chatbot vs. Generative AI Assistant vs. AI Agent (5 Points)
+Feature	Basic Chatbot	                      Generative AI Assistant	                                AI Agent
+1. Behavior	Gives scripted replies	        Generates flexible responses	            Plans and executes multi-step tasks
+2. Initiative	Responds to predefined queries  	Responds when prompted	          Can work step by-step toward a goal
+3. Intelligence	Follows fixed rules          	Understands and generates content	  Makes decisions and adapts actions
+4. Tools	No or limited tools	                May use optional tools	            Uses tools as a core capability
+5. Example	Menu-based support bot	          Drafting and summarizing	          Processing a refund from start to end
+---------------------------------------------------------------------------------------------------------------------------
+3.1.5 Business Significance of AI Agents (4 Points)
+1. Productivity: Reduces human effort by allowing people to supervise results instead of performing every step.
+2. Scalability: The same AI agent can handle multiple tasks simultaneously.
+3. Coverage: Handles complex tasks across multiple systems that traditional automation cannot easily perform.
+4. New Risk Profile: Errors can affect multiple steps and real systems, so permissions, 
+monitoring and governance are necessary. 
+-----------------------------------------------------------------------------------------------------------
+3.1.6 Limitations of AI Agents (5 Points)
+1. Reasoning Errors: Wrong decisions or hallucinations can affect the entire task.
+2. Unpredictable Behaviour: Agents may get stuck in loops or make unnecessary tool calls, increasing cost.
+3. Difficult Testing: Dynamic behaviour makes it difficult to test every possible situation.
+4. Security Risks: Prompt injection and excessive permissions can cause security problems.
+5. Accountability: It can be difficult to decide who is responsible when an AI agent makes a mistake while acting on behalf of a person or company.
