@@ -1,0 +1,51 @@
+An AI Agent is an intelligent system that perceives its environment through inputs,
+analyses information, makes decisions and takes actions to achieve a specific goal.
+In modern systems, an LLM acts as the brain, supported by tools, memory and rules.
+
+Example: An AI agent that automatically verifies and processes a customer's refund reques
+---------------------------------------------------------------------------------------------
+Components of AI Agent:
+1. Goal / Instruction
+- Defines what the AI agent needs to achieve.
+- Specifies the objective, rules and expected result.
+Example: Check vendor invoices and find mismatches above 2%.
+
+2. LLM / Reasoning Engine
+- Acts as the brain of the AI agent.
+- Understands instructions, makes decisions and selects the next action.
+Example: Decides to collect invoices first and then compare them with purchase orders.
+
+3. Planner
+- Divides a big task into smaller steps.
+- Arranges the steps in the correct order.
+Example: Fetch invoices → Match orders → Find mismatches → Prepare summary.
+
+4. Tools
+- Allow the AI agent to interact with external applications and systems.
+- Help the agent perform tasks.
+Example: ERP software, Excel, email and web search.
+
+5. Short-Term Memory
+- Stores information about the current task.
+- Remembers completed steps and current results.
+Example: Remembers which invoices have already been checked.
+
+6. Long-Term Memory
+- Stores information from previous tasks and experiences.
+- Helps the agent use past knowledge in future tasks.
+Example: Remembers special rules for different vendors.
+
+7. Perception / Inputs
+- Collects information from the environment.
+- Provides the data required by the agent.
+Example: Receives invoices, documents, user instructions and tool outputs.
+
+8. Action Layer
+- Executes the decisions made by the agent.
+- Interacts with external systems to complete tasks.
+Example: Sends a query or updates an invoice record.
+
+9. Guardrails
+- Defines safety rules, permissions and restrictions.
+- Prevents the agent from performing unauthorized actions.
+Example: Cannot make payments above a specified limit without approval.
