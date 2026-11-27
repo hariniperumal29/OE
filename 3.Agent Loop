@@ -1,0 +1,28 @@
+7 Steps of the Agent Loop
+1. Receive Goal: The agent receives the task, instructions, constraints and available tools.
+
+Example: Check vendor invoices and find mismatches above 2%.
+
+2. Plan: The agent breaks the task into smaller steps and decides their order.
+
+Example: Fetch invoices → Compare purchase orders → Find mismatches.
+
+3. Select Action: The agent chooses which tool to use and what parameters to provide.
+
+Example: Selects the ERP tool to fetch invoices.
+
+4. Execute Action: The agent performs the selected action using the tool.
+
+Example: Fetches invoice records from the ERP system.
+
+5. Observe Result: The agent checks the output to identify success, errors or new information.
+
+Example: Receives invoice details and identifies missing records.
+
+6. Reflect / Evaluate: The agent checks whether the task is progressing correctly and whether the goal is achieved.
+
+Example: Checks whether all invoices have been compared.
+
+7. Update Plan or Finish: The agent decides whether to continue, change the plan, ask for human help or stop.
+
+Example: If mismatches are found, prepares a report; if data is missing, asks for human assistance.
